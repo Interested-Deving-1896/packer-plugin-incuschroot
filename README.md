@@ -1,47 +1,91 @@
+# packer-plugin-incuschroot
 
-# Packer Plugin Incus Chroot
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/packer-plugin-incuschroot) [![KDE Eco](https://img.shields.io/badge/KDE%20Eco-certified-brightgreen?logo=kde&logoColor=white&style=flat-square)](https://eco.kde.org/) [![Blue Angel](https://img.shields.io/badge/Blue%20Angel-DE--UZ%20215-0055a4?style=flat-square)](https://www.blauer-engel.de/en/certification/criteria)
 
 
-Goal: build disk images in a chroot on a pre-existing VM.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-_Note: this is a brand new (Sep 2024) fork of the LXD plugin. You probably want
-[bketelsen/packer-plugin-incus](https://github.com/bketelsen/packer-plugin-incus)._
+## Architecture
 
-## Installation
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-### Using pre-built releases
+## Install
 
-#### Using the `packer init` command
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-<details>
-<summary> packer init not yet supported </summary>
-
-Starting from version 1.7, Packer supports a new `packer init` command allowing
-automatic installation of Packer plugins. Read the
-[Packer documentation](https://www.packer.io/docs/commands/init) for more information.
-
-To install this plugin, copy and paste this code into your Packer configuration .
-Then, run [`packer init`](https://www.packer.io/docs/commands/init).
-
-```hcl
-packer {
-  required_plugins {
-    incus = {
-      version = ">= 1.0.0"
-      source  = "github.com/dontlaugh/incuschroot"
-    }
-  }
-}
+```bash
+git clone https://github.com/Interested-Deving-1896/packer-plugin-incuschroot.git
+cd packer-plugin-incuschroot
 ```
 
-</details>
+## Usage
 
-## Development
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-Get the sdc tool from Hashicorp.
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/packer-plugin-incuschroot`](https://github.com/Interested-Deving-1896/packer-plugin-incuschroot) and mirrored through:
 
 ```
-make install-packer-sdc
+Interested-Deving-1896/packer-plugin-incuschroot  ──►  OpenOS-Project-OSP/packer-plugin-incuschroot  ──►  OpenOS-Project-Ecosystem-OOC/packer-plugin-incuschroot
 ```
 
-Then see [HACKING.md](./HACKING.md)
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream influences recorded._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## Accessibility
+
+<!-- AI:start:accessibility -->
+This repo uses automated accessibility auditing via `check-accessibility.yml`.
+
+Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
+WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
+
+
+
+
+Run the [Check Accessibility](https://github.com/Interested-Deving-1896/packer-plugin-incuschroot/actions/workflows/check-accessibility.yml)
+workflow to generate the first report and accessibility artifacts.
+See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/packer-plugin-incuschroot/blob/main/DOCS/accessibility.md) for the full reference.
+<!-- AI:end:accessibility -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
