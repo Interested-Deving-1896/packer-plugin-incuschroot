@@ -71,11 +71,11 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 | [@williamb1024](https://github.com/williamb1024) | 2 |
 | [@paulmey](https://github.com/paulmey) | 2 |
 | [@jsoref](https://github.com/jsoref) | 2 |
+| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 2 |
 | [@CalebAlbers](https://github.com/CalebAlbers) | 1 |
 | [@EtienneDeneuve](https://github.com/EtienneDeneuve) | 1 |
 | [@hasusuf](https://github.com/hasusuf) | 1 |
 | [@ilhaan](https://github.com/ilhaan) | 1 |
-| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 1 |
 | [@lz1irq](https://github.com/lz1irq) | 1 |
 | [@Novakov](https://github.com/Novakov) | 1 |
 | [@modrake](https://github.com/modrake) | 1 |
@@ -101,18 +101,15 @@ _No additional resource files found._
 ## Accessibility
 
 <!-- AI:start:accessibility -->
-This repo uses automated accessibility auditing via `check-accessibility.yml`.
-
-Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
-WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
-
+No  was found when this README was generated. Check the
+[Actions tab](https://github.com/Interested-Deving-1896/packer-plugin-incuschroot/actions) for repository-specific checks, and document an
+accessibility status only when a report or workflow provides evidence for it.
 
 
 
-Run the [Check Accessibility](https://github.com/Interested-Deving-1896/packer-plugin-incuschroot/actions/workflows/check-accessibility.yml)
-workflow to generate the first report and accessibility artifacts.
+
 See the [W3C Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
-for the underlying accessibility reference.
+for accessibility guidance.
 <!-- AI:end:accessibility -->
 
 ## License
